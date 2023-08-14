@@ -1,0 +1,32 @@
+li{
+    display: flex;
+    float: right;
+    list-style: none;
+    padding: 10px 20px;
+    border-radius: 0cqh;
+    background-color: aqua;
+}
+.dom{
+    display: flex;
+    justify-content: flex-start;
+    float: left;
+    font-weight: 600;
+    font-size: large;
+}
+.nab{
+    text-decoration: none;
+    /* color: rgb(8, 8, 8); */
+}
+ li:hover{
+    background-color: hsl(240, 63%, 58%);
+    color: rgb(241, 242, 242);
+}
+#navbar a{
+    color: black;
+}
+.sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+  }
+  
